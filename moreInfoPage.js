@@ -44,7 +44,7 @@ function getMovies() {
                     </div>
                     <div class="mt-3">
                         <div class="col-12 d-flex align-items-center justify-content-center flex-column">
-                            <a class="btn btn-primary" href="${movieHomepage}">Página Oficial</a>
+                            <a class="btn btn-primary" href="${movieHomepage}" target="_blank">Página Oficial</a>
                         </div>
                     </div>
                 </div>
