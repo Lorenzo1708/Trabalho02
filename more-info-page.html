@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./Images/Favicon.ico" type="image/x-icon">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Portal de Filmes</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="row m-4 p-4 rounded-1 shadow">
+            <div class="col-12 col-md-3 d-flex align-items-center justify-content-center">
+                <img class="w-25" src="./Images/Movie.png" alt="Movie">
+            </div>
+            <div class="col-12 col-md-6 my-4"></div>
+            <div class="col-12 col-md-3 d-flex align-items-center justify-content-center">
+                <a href="./index.html">
+                    <i class="fas fa-2x fa-home"></i>
+                </a>
+                <div class="mx-4"></div>
+                <a href="./search-page.html">
+                    <i class="fas fa-2x fa-search"></i>
+                </a>
+            </div>
+        </header>
+        <main class="row m-4 p-4">
+            <div class="d-flex flex-column align-items-center justify-content-center" id="moviesDiv">
+                <img class="mb-4 w-25" src="./Images/Load.png" alt="Load">
+                <h1 class="mt-4 text-center">Carregando...</h1>
+            </div>
+        </main>
+        <footer class="row m-4 p-4 rounded-1 shadow">
+            <div class="col-12 col-md-9 d-flex align-items-center justify-content-center">
+                <h6 class="mb-4 mb-md-0 text-center">
+                    © 2021 - Lorenzo Duarte Costa.
+                    <br>
+                    Todos os Direitos Reservados.
+                </h6>
+            </div>
+            <div class="col-12 col-md-3 d-flex align-items-center justify-content-center">
+                <img class="mt-4 mt-md-0 w-25" src="./Images/Movie.png" alt="Movie">
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="./config.js"></script>
+    <script src="./moreInfoPage.js"></script>
+</body>
+
+</html>

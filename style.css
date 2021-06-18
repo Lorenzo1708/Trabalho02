@@ -1,0 +1,11 @@
+body {
+    background-color: #DDD;
+}
+
+header, footer {
+    background-color: #FFF;
+}
+
+.dateText {
+    color: #AAA;
+}
